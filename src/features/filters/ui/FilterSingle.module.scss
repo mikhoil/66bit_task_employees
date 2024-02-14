@@ -36,6 +36,9 @@
         @apply bg-[#155DA4];
         &:after {
             @apply text-foreground absolute left-[2px] content-tick;
+            @media (min-width: 320px) {
+                @apply top-[1px];
+            }
             @media (min-width: 1280px) {
                 @apply -top-[4px];
             }
