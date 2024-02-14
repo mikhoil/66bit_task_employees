@@ -1,0 +1,9 @@
+.container {
+    @apply text-foreground bg-primary font-normal p-[10px] rounded-[5px];
+    @media (min-width: 320px) {
+        @apply text-xs;
+    }
+    @media (min-width: 1280px) {
+        @apply text-base;
+    }
+}

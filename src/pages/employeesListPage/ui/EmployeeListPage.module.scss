@@ -1,0 +1,57 @@
+.container {
+    @apply flex flex-col justify-stretch text-foreground bg-bg overflow-hidden;
+    @media (min-width: 320px) {
+        @apply px-6;
+    }
+    @media (min-width: 1280px) {
+        @apply pl-[78px] pr-[90px];
+    }
+    @media (min-width: 1920px) {
+        @apply pl-[168px] pr-[180px];
+    }
+}
+
+.searchHeader {
+    @apply flex mt-4;
+    @media (min-width: 320px) {
+        @apply flex-col mb-4;
+    }
+    @media (min-width: 640px) {
+        @apply flex-row items-center justify-between flex-wrap mb-0;
+    }
+    @media (min-width: 1280px) {
+        @apply pl-3 mb-0;
+    }
+}
+
+.title {
+    @apply font-bold;
+    @media (min-width: 320px) {
+        @apply text-xl;
+    }
+    @media (min-width: 1280px) {
+        @apply text-[40px];
+    }
+}
+
+.searchFooter {
+    @apply py-[13px] bg-primary;
+    @media (min-width: 320px) {
+        @apply -mx-6 px-6;
+    }
+    @media (min-width: 640px) {
+        @apply flex justify-between items-center -mx-[90px] px-[90px];
+    }
+    @media (min-width: 1920px) {
+        @apply -mx-[180px] px-[180px];
+    }
+}
+
+.results {
+    @media (min-width: 320px) {
+        @apply -ml-6 -mr-12 px-6;
+    }
+    @media (min-width: 640px) {
+        @apply mx-0 px-0;
+    }
+}

@@ -1,0 +1,13 @@
+.button {
+    @apply relative rounded-[30px] bg-[#155DA4] p-[3px];
+    @media (min-width: 320px) {
+        @apply w-[47px] h-[22px];
+    }
+    @media (min-width: 1280px) {
+        @apply w-[55px] h-full;
+    }
+}
+
+.img {
+    @apply relative bg-white rounded-full p-[3px] min-[1280px]:w-5 min-[320px]:w-[17px];
+}

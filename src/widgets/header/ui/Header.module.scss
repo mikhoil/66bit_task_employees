@@ -1,0 +1,32 @@
+.container {
+    @apply text-foreground bg-bg flex justify-between items-center shadow-color shadow-header;
+    @media (min-width: 320px) {
+        @apply px-6 py-4 w-full;
+    }
+    @media (min-width: 1280px) {
+        @apply px-[90px] py-8;
+    }
+    @media (min-width: 1920px) {
+        @apply px-[180px] py-8;
+    }
+}
+
+.logo {
+    @apply min-[320px]:w-[52px] min-[1280px]:w-full;
+}
+
+.actions {
+    @apply flex gap-x-12;
+}
+
+.contacts {
+    @media (min-width: 320px) {
+        @apply hidden;
+    }
+    @media (min-width: 640px) {
+        @apply flex gap-x-16 text-base;
+    }
+    @media (min-width: 1280px) {
+        @apply text-lg;
+    }
+}

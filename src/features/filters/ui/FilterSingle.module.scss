@@ -1,0 +1,44 @@
+.container {
+    @apply relative text-foreground;
+}
+
+.container:nth-child(2n) .options {
+    @apply -left-10;
+}
+
+.button {
+    @apply flex items-stretch min-[320px]:gap-x-2 min-[1280px]:gap-x-3;
+    @media (min-width: 320px) {
+        @apply gap-x-2 text-xs;
+    }
+    @media (min-width: 1280px) {
+        @apply gap-x-3 text-xl;
+    }
+}
+
+.options {
+    @apply absolute mt-2 left-0 border-t border-[#155DA4] bg-bg gap-y-3 flex flex-col p-5 shadow-[0_4px_4px_0] shadow-[#00000040];
+    @media (min-width: 320px) {
+        @apply text-xs;
+    }
+    @media (min-width: 1280px) {
+        @apply text-base;
+    }
+}
+
+.label {
+    @apply flex justify-between items-center gap-x-9 text-nowrap;
+}
+
+.checkbox {
+    @apply relative rounded-sm accent-[#155DA4] appearance-none border border-[#155DA4] h-[19px] w-[19px];
+    &:checked {
+        @apply bg-[#155DA4];
+        &:after {
+            @apply text-foreground absolute left-[2px] content-tick;
+            @media (min-width: 1280px) {
+                @apply -top-[4px];
+            }
+        }
+    }
+}

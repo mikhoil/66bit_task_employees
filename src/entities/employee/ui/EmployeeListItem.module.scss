@@ -1,0 +1,16 @@
+.container {
+    @apply hover:bg-primary border-spacing-7 border-separate;
+}
+
+.container td {
+    @apply font-normal;
+    @media (min-width: 320px) {
+        @apply py-3 align-top;
+        &:nth-child(-n + 3) {
+            @apply pr-7;
+        }
+    }
+    @media (min-width: 1280px) {
+        @apply py-7 px-3;
+    }
+}

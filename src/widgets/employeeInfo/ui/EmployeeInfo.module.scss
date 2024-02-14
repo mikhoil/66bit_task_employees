@@ -1,0 +1,29 @@
+.title {
+    @apply font-semibold;
+    @media (min-width: 320px) {
+        @apply text-base;
+    }
+    @media (min-width: 1280px) {
+        @apply text-[32px];
+    }
+}
+
+.info {
+    @apply flex;
+    @media (min-width: 320px) {
+        @apply text-sm gap-x-[18px] mt-4;
+    }
+    @media (min-width: 1280px) {
+        @apply text-2xl gap-x-11 mt-8;
+    }
+}
+
+.rows {
+    @apply flex flex-col;
+    @media (min-width: 320px) {
+        @apply font-medium gap-y-2;
+    }
+    @media (min-width: 1280px) {
+        @apply font-normal gap-y-6;
+    }
+}

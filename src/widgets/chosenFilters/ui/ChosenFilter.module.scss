@@ -1,0 +1,26 @@
+.container {
+    @apply text-foreground;
+    @media (min-width: 320px) {
+        @apply gap-x-4 mb-4;
+    }
+    @media (min-width: 640px) {
+        @apply flex items-center gap-x-4 my-0;
+    }
+    @media (min-width: 1280px) {
+        @apply pl-3 gap-x-6 my-0;
+    }
+}
+
+.title {
+    @apply font-medium min-[320px]:text-sm min-[1280px]:text-xl;
+}
+
+.filters {
+    @apply flex gap-y-3 pr-3 flex-wrap;
+    @media (min-width: 320px) {
+        @apply gap-x-4 mt-3;
+    }
+    @media (min-width: 1280px) {
+        @apply gap-x-6 mt-0;
+    }
+}

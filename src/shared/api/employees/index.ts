@@ -1,0 +1,1 @@
+export { axiosEmployees } from './instance';

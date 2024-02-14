@@ -1,0 +1,8 @@
+.container {
+    @media (min-width: 320px) {
+        @apply order-3 text-sm flex justify-between;
+    }
+    @media (min-width: 640px) {
+        @apply order-none text-xl mb-0 flex gap-x-9;
+    }
+}

@@ -1,0 +1,12 @@
+.container {
+    @apply text-foreground;
+    @media (min-width: 320px) {
+        @apply px-6 pt-3;
+    }
+    @media (min-width: 1280px) {
+        @apply px-[90px] pt-4;
+    }
+    @media (min-width: 1920px) {
+        @apply px-[180px];
+    }
+}

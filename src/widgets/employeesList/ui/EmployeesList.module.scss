@@ -1,0 +1,21 @@
+.container {
+    @media (min-width: 320px) {
+        @apply text-xs overflow-x-auto block;
+    }
+    @media (min-width: 1280px) {
+        @apply text-xl -mr-2 overflow-auto;
+    }
+}
+
+.header {
+    @apply bg-bg text-[#B0B0B0] font-medium text-nowrap w-full;
+}
+
+.header th {
+    @media (min-width: 320px) {
+        @apply pt-6 pb-1;
+    }
+    @media (min-width: 1280px) {
+        @apply pb-7 pt-8 px-3;
+    }
+}

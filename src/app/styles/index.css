@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variant-numeric: lining-nums;
+}
+
+html[data-theme='dark'] {
+    --bg-color: #292929;
+    --text-color: #f5f5f5;
+    --bg-color-primary: #3e3e3e;
+    --cross: url('../assets/white_cross.svg');
+    --header-shadow: 0px 4px 4px 0px;
+    --header-shadow-color: #0000001a;
+}
+
+html[data-theme='light'] {
+    --bg-color: #ffffff;
+    --text-color: #292929;
+    --bg-color-primary: #f2f2f2;
+    --cross: url('../assets/black_cross.svg');
+    --header-shadow: 0px 4px 8px 0px;
+    --header-shadow-color: #3971a440;
+}

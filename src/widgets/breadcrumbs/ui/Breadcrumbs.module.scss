@@ -1,0 +1,16 @@
+.container {
+    @apply flex items-center text-[#B0B0B0] text-nowrap overflow-hidden;
+    @media (min-width: 320px) {
+        @apply gap-x-3 text-xs px-6 py-[15px] text-ellipsis;
+    }
+    @media (min-width: 1280px) {
+        @apply gap-x-4 text-lg px-[90px] py-7 text-ellipsis;
+    }
+    @media (min-width: 1920px) {
+        @apply px-[180px];
+    }
+}
+
+.img {
+    @apply min-[320px]:h-3 min-[320px]:w-3 min-[1280px]:w-4 min-[1280px]:h-4;
+}

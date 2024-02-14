@@ -1,0 +1,9 @@
+.container {
+    @apply w-full bg-bg p-[10px] border-[0.5px] border-[#B0B0B0] outline-[#155DA4] rounded-[5px] focus:placeholder-[#818181];
+    @media (min-width: 320px) {
+        @apply mt-4 mb-3 text-sm;
+    }
+    @media (min-width: 1280px) {
+        @apply text-xl my-7;
+    }
+}

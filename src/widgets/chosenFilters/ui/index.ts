@@ -1,0 +1,1 @@
+export { ChosenFilters } from './ChosenFilters';

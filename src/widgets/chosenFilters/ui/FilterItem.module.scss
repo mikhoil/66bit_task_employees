@@ -1,0 +1,13 @@
+.container {
+    @apply p-[10px] flex gap-x-[10px] items-center rounded-[5px] bg-bg;
+    @media (min-width: 320px) {
+        @apply text-xs;
+    }
+    @media (min-width: 1280px) {
+        @apply text-base;
+    }
+}
+
+.cross {
+    @apply bg-cross w-[10px] h-[10px];
+}
