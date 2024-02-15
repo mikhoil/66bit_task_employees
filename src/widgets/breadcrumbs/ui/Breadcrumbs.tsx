@@ -34,7 +34,9 @@ export function BreadCrumbs() {
             {'id' in params && (
                 <>
                     <img src={arrowRight} />
-                    <span className="text-ellipsis">{employeeName}</span>
+                    <span className="overflow-hidden text-ellipsis -mr-6">
+                        {employeeName}
+                    </span>
                 </>
             )}
         </div>

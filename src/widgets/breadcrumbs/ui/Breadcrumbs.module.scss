@@ -1,5 +1,5 @@
 .container {
-    @apply flex items-center text-[#B0B0B0] text-nowrap overflow-hidden;
+    @apply flex items-center text-[#B0B0B0] text-nowrap overflow-hidden ;
     @media (min-width: 320px) {
         @apply gap-x-3 text-xs px-6 py-[15px] text-ellipsis;
     }
