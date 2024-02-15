@@ -11,7 +11,7 @@ export default {
                 foreground: 'var(--text-color)',
             },
             content: {
-                tick: 'url(./src/app/assets/checkbox_tick.svg)',
+                tick: 'url(/src/app/assets/checkbox_tick.svg)',
             },
             backgroundImage: {
                 cross: 'var(--cross)',
